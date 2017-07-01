@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>abe chutiye</title>
+<style>
+.logo {
+  text-align:center;
+  display:block;
+  width:60%;
+  margin-left:25%;
+}
+
+
+.captcha {
+/*margin-top:20px;
+margin-left:40%;
+  width:20%;*/
+  margin:20px auto;
+  display:block;
+  
+}
+
+.form {
+width:40%;
+margin:10px auto;
+text-align:center;
+}
+
+.login {
+
+margin:10px auto;
+
+}
+.option {
+margin:10px;
+
+background-color: lightblue;
+}
+p {
+color:red;
+text-align:center;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+
+<img src="https://webmail.iitg.ernet.in/images/jampui_new.gif"  alt="LOGO" class="logo" />
+<img src="https://webmail.iitg.ernet.in/plugins/captcha/backends/watercap/image_generator.php?sq=1498894269" alt="captcha" class="captcha"/>
+<div>
+<form class="form">
+Enter the text you see above:
+<input type="text" name="captcha"><br><br>
+Email ID:
+<input type="text" name="emailid"><br>
+Password:
+<input type="text" name="password"><br>
+
+<input type="submit" value="Login" class="login" style="margin:10px 90px;">
+<div class="option">
+Log in to:<select name="server">
+  <option value="a">Teesta</option>
+  <option value="b">Naambor</option>
+  <option value="c">Disang</option>
+  <option value="d">Tamdil</option>
+  <option value="e">Dikrong</option>
+</select>
+<br>
+
+
+</div>
+<input type="checkbox" name="remember" value="server">Remember Login Server <br><br>
+Enter your password with the <a href="#">Virtual keyboard</a><br><br><br>
+<input type="checkbox" name="security" value="secure"> Remain Secure After Login 
+</form>
+</div>
+
+<p>Do not reply to any mail asking for your WEBMAIL PASSWORD. These are all SPAM mails.</p>
+
+
+</body>
+</html>
